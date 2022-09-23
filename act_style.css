@@ -1,0 +1,87 @@
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 20px;
+    color: rgb(248, 237, 227);
+    text-align: center;
+    text-decoration: none;
+}
+
+.active{
+    background-color: rgb(125, 110, 131);
+    color: white;
+}
+
+li a.hover:not(.active){
+    background-color: blueviolet;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(94, 71, 104);
+    overflow: hidden;
+
+    position: sticky;
+    top: 0;
+}
+
+body{
+
+    border: 2px solid black;
+    text-align: center;
+}
+
+h1{
+    color:rgb(24, 24, 24);
+    background-color: rgb(135, 88, 255);
+    text-align: left;
+    border: 2px solid black;
+}
+
+#textcolor{
+    color:rgb(24, 24, 24);
+}
+
+
+.highlight{
+    background-color:rgb(94, 71, 104);
+    border: 2px solid black;
+}
+
+div.secondiv p{
+    background-color:rgb(223, 211, 195);
+}
+
+
+section:hover{
+    background-color: rgb(223, 211, 195);
+}
+
+section{
+    background-color: rgb(214, 205, 164);
+    color: rgb(24, 24, 24);
+    border: 2px solid black;
+
+}
+
+hgroup:hover{
+    background-color: rgb(63, 114, 175);
+    
+}
+
+.features{
+    text-align: left;
+}
+
+nav.alignment{
+    text-align: left;
+}
+
+footer{
+    color: black;
+}
